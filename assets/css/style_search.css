@@ -1,0 +1,130 @@
+body {
+	font-family: 'Gentium Basic', serif;
+	margin: 0px;
+	padding: 0;
+	background-color: #FAFAF4;
+	font-color: #262626;
+}
+
+#navbar{
+	background: #996b99;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	opacity: 0.9;
+}
+
+#icon {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+	position: absolute;
+	top: 8;
+	left: 8;
+	font-size: 24px;
+    color: #FAFAF4;
+}
+
+#alphabet{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 700;
+    color: #FAFAF4;
+    letter-spacing: 8px;
+    font-size: 16px;
+    margin: 13;
+    position: relative;
+    text-align: center;
+}
+
+#search-bar{
+    font-family: 'Julius Sans One', sans-serif;
+    background: #FAFAF4;
+    width: 200px;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 8px;
+    z-index: 100;
+    position: absolute;
+    right: 10;
+    top: 14;
+}
+#container{
+	position: relative;
+	top: 80px;
+	padding-bottom: 40px;
+	margin: 0 auto;
+}
+
+
+#results{
+	width: 400px;
+	height: 350px;
+	overflow: scroll;
+	margin: 0 auto;
+	padding: 50px;
+	background: #FAFAF4;
+}
+
+#search_results{
+	font-style: italic;
+	font-size: 18px;
+/*	font-weight: 300;
+*/	margin-bottom: 20px;
+	padding-bottom: 5px;
+}
+
+
+.header{
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: 700;
+	font-size: 18px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #262626;
+	padding-bottom: 5px;
+}
+
+.list div{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#pagebottom{
+	background: #996b99;
+	height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	opacity: 0.9;
+}
+
+#pagebottom div{
+	display: inline-block;
+	line-height: 50px;
+}
+
+.button{
+	position: relative;
+	text-align: left;
+	margin-left: 80px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
+
+#right1{
+	position: absolute;
+	text-align: right;
+	right: 280px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
+
+#right2{
+	position: absolute;
+	text-align: right;
+	right: 80px;
+	font-size: 14px;
+	color: #FAFAF4;
+}
